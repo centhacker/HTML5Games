@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" manifest="AppCache\game3.appcache">
+<head runat="server">
+    <title>Dhundo</title>
+    <script type="text/javascript" src="js\GameWord.js"></script>
+    <script type="text/javascript" src="js\jquery-1.7.2.min.js"></script>
+    <meta name="keywords" />
+    <meta name="description" />
+
+
+    <link href="css/game2.css" rel="stylesheet" type="text/css" />
+    <link href="css/s3slider.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        #game {
+            border: 1px solid #000;
+            cursor: pointer;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+            #game:click {
+                cursor: pointer;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+            #game:hover {
+                cursor: pointer;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+        #Words {
+            border: 1px solid #000;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+
+        #new {
+            padding-left: 600px;
+        }
+    </style>
+</head>
+<body onload="init();">
+    <form id="form1" runat="server">
+        <div id="site_title_bar_wrapper">
+
+            <div id="site_title_bar">
+                <div id="site_title">
+                    <h1>Free Online Games
+                    </h1>
+                </div>
+                <div>
+                    <ul id="top_menu">
+                        <li class="first"><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Back</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end of site title bar -->
+        </div>
+        <!-- end of site title bar wrapper -->
+
+
+        <canvas id="game" width="500" height="500"></canvas>
+        <canvas id="Words" width="300" height="500"></canvas>
+
+
+        <div class="cleaner_h20"></div>
+
+        
+
+
+        <div id="footer_wrapper">
+
+            <div id="footer">
+
+                <ul class="footer_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Games</a></li>
+                   
+                    <li class="last_menu"><a href="#">About Us</a></li>
+                </ul>
+
+                Copyright © 2013 <a href="#">MultiMedia System Project</a> | 
+        <a href="#" target="_parent">Website by Babban Incorporation
+            </div>
+            <!-- end of footer -->
+
+        </div>
+        <!-- end of footer wrapper -->
+        <div align="center">.</div>
+
+    </form>
+</body>
+</html>
